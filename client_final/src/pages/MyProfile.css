@@ -1,0 +1,69 @@
+/* מכולת הפרופיל הראשי */
+.my-profile-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* כותרת העמוד */
+.my-profile-container h2 {
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* הודעת שגיאה */
+.error-message {
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* פרטי המשתמש */
+.profile-details {
+    background-color: white;
+    padding: 25px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.profile-details p {
+    font-size: 1.1rem;
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+.profile-details strong {
+    color: #0d6efd;
+}
+
+/* כפתור חזרה */
+.back-button {
+    padding: 12px 30px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.myprofile-logo {
+    top: 20px;
+    right: 30px;
+    width: 200px;
+    transition: transform 0.3s ease;
+}

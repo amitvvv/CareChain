@@ -1,0 +1,68 @@
+/* ✅ עיצוב כללי של הדף */
+.contracts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* ✅ כותרות */
+/* 📋 טבלה מעוצבת */
+.contracts-table {
+    width: 90%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* ✅ כותרות הטבלה */
+.contracts-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+/* ✅ תאים בטבלה */
+.contracts-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #333;
+    background-color: white;
+}
+/* ✅ עיצוב רקע לסירוגין לשורות */
+.contracts-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+/* 🟢 אישור חוזה */
+/* 🔴 חוזה לא מאושר */
+/* 🔘 כפתורים */
+/* ✅ כפתור אישור */
+/* ✅ כפתור צפייה */
+/* ❌ כפתור סגירה */
+/* ✅ הודעות שגיאה והצלחה */
+/* ✅ עיצוב מודל חוזים */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}

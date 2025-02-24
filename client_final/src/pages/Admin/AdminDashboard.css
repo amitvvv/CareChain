@@ -1,0 +1,116 @@
+/* מכולת הדשבורד הראשי */
+.dashboard-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* כותרת הדשבורד */
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+    font-size: 2.8rem;
+    font-family: "Poppins", sans-serif;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.dashboard-header h2 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    color: #5d5d5d;
+    margin-top: 5px;
+}
+
+.dashboard-header p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* כפתור יציאה */
+.logout-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+/* הודעת שגיאה */
+.error-message {
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* עיצוב תוכן הדשבורד */
+.dashboard-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    width: 100%;
+    max-width: 900px;
+    justify-items: center;
+}
+
+/* כרטיסיות הדשבורד */
+.dashboard-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-bottom: 8px;
+}
+
+.dashboard-card p {
+    font-size: 0.95rem;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+/* כפתורים בכרטיסיות */
+.dashboard-button {
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+    background-color: #0056b3;
+}

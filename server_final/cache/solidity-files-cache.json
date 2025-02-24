@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Wizi\\Desktop\\Carechain proj\\final proj https web\\server\\contracts\\MedicalContract.sol": {
+      "lastModificationDate": 1739814510328,
+      "contentHash": "4a5074b2bb4458f6b247f080118f4e68",
+      "sourceName": "contracts/MedicalContract.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MedicalContract"
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+/* מכולת העמוד */
+.contracts-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* כותרת ראשית */
+.contracts-container h1 {
+    font-size: 2.8rem;
+    font-family: "Poppins", sans-serif;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* כותרת משנה */
+.contracts-container h2 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* סינון חיפוש */
+.search-filters {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.search-filters input {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+    transition: all 0.3s ease;
+}
+
+.search-filters input:focus {
+    outline: none;
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+/* טבלאות */
+.contracts-container table {
+    width: 100%;
+    max-width: 1100px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.contracts-container th, .contracts-container td {
+    padding: 15px;
+    font-size: 1rem;
+    text-align: left;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.contracts-container th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.contracts-container tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* טיפול במידע חסר */
+.empty-value {
+    color: #dc3545;
+    font-style: italic;
+}
+
+/* כפתורי פעולות */
+.contracts-container button {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 5px;
+}
+
+.contracts-container button:hover {
+    background-color: #0056b3;
+}
+
+.contracts-container button.restore-button {
+    background-color: #198754;
+}
+
+.contracts-container button.restore-button:hover {
+    background-color: #157347;
+}
+
+/* כפתור חזרה */
+.back-button {
+    padding: 12px 30px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}

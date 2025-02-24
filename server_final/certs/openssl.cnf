@@ -1,0 +1,37 @@
+[ ca ]
+default_ca = CA_default
+
+[ CA_default ]
+dir = ./demoCA
+database = $dir/index.txt
+new_certs_dir = $dir/newcerts
+certificate = $dir/rootCA.crt
+serial = $dir/serial
+crlnumber = $dir/crlnumber
+crl = $dir/crl.pem
+private_key = $dir/rootCA.key
+default_days = 365
+default_md = sha256
+preserve = no
+policy = policy_anything
+default_crl_days = 30
+
+[ policy_anything ]
+countryName = optional
+stateOrProvinceName = optional
+organizationName = optional
+commonName = supplied
+
+[ req ]
+default_bits       = 2048
+distinguished_name = req_distinguished_name
+prompt             = no
+
+[ req_distinguished_name ]
+C  = IL
+ST = TLV
+L  = TLV
+O  = CareChain
+OU = CareChain
+CN = localhost
+

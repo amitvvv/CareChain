@@ -1,0 +1,232 @@
+.user-management-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.dashboard-logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.user-management-container h1 {
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.popup-button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.popup-button:hover {
+    background-color: #157347;
+}
+
+.users-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    table-layout: auto;
+    word-wrap: break-word;
+}
+
+.users-table h2 {
+    font-size: 1.8rem;
+    font-family: "Poppins", sans-serif;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.users-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    table-layout: auto;
+    word-wrap: break-word;
+}
+
+.users-table th, .users-table td {
+    padding: 15px;
+    font-size: 1rem;
+    text-align: left;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    min-width: 120px;
+    overflow-wrap: anywhere;
+}
+
+.users-table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.users-table td {
+    white-space: normal;
+}
+
+.users-table td.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* ריווח בין הכפתורים */
+    padding: 10px 0;
+    min-width: 250px; /* רוחב מינימלי מוגדר */
+    flex-wrap: nowrap; /* מונע שבירת כפתורים לשורות */
+}
+
+
+/* עיצוב שורה במעבר עכבר */
+.users-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.users-table button {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.users-table button:hover {
+    background-color: #0056b3;
+}
+
+.disable-button {
+    background-color: #dc3545;
+}
+
+.enable-button {
+    background-color: #198754;
+}
+
+.disable-button:hover {
+    background-color: #c82333;
+}
+
+.enable-button:hover {
+    background-color: #157347;
+}
+
+/* פופאפ */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.popup-content h2 {
+    font-size: 1.8rem;
+    font-family: "Poppins", sans-serif;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.popup-content input, .popup-content select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.popup-content input:focus, .popup-content select:focus {
+    outline: none;
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+/* כפתורים בפופאפ */
+.popup-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.popup-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.popup-buttons button:first-child {
+    background-color: #198754;
+}
+
+.popup-buttons button:first-child:hover {
+    background-color: #157347;
+}
+
+.popup-buttons button:last-child {
+    background-color: #dc3545;
+}
+
+.popup-buttons button:last-child:hover {
+    background-color: #c82333;
+}
+
+.back-button {
+    padding: 12px 30px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+
+    /* מרכזת הכפתור */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+

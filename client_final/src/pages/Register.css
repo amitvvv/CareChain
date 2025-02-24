@@ -1,0 +1,104 @@
+/* מכולת העמוד */
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* טופס הרישום */
+.register-form {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* כותרת */
+.register-form h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* שדות הקלט */
+.register-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.register-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* כפתור הרישום */
+.register-button {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+
+/* הודעת שגיאה */
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.register-button, .cancel-button {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* כפתור Register */
+.register-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+
+/* כפתור Cancel */
+.cancel-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.cancel-button:hover {
+    background-color: #b52b3a;
+}
+
+/* מכולת הכפתורים */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
