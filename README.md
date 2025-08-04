@@ -31,3 +31,24 @@
 
 ## 📂 Project Structure
 
+carechain/
+│
+├── client/ # React frontend
+│ ├── src/
+│ │ ├── pages/ # Login, Dashboards, Views
+│ │ ├── components/ # UI Components
+│ │ ├── api/ # Axios API calls
+│ │ ├── assets/ # Logo, CSS, etc.
+│ │ └── App.js
+│
+├── server/ # Node.js backend
+│ ├── routes/ # Express routes
+│ ├── models/ # Mongoose schemas
+│ ├── controllers/ # Logic handlers
+│ └── index.js # Entry point
+│
+├── contracts/ # Solidity smart contracts
+│ └── MedicalContract.sol
+│
+├── README.md
+└── package.json
