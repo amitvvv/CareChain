@@ -1,42 +1,33 @@
-# CareChain – Blockchain-Powered Medical Contract Management System
+# 🩺 CareChain – Blockchain-Based Medical Contract Platform
 
-CareChain is a secure and innovative platform for managing and approving medical contracts using blockchain technology. The system provides decentralized storage, role-based access, immutability, and verifiability for patients and doctors.
+**CareChain** is a secure and decentralized platform for managing medical contracts between doctors and patients. By leveraging blockchain technology, the system ensures **immutability**, **transparency**, and **fine-grained access control** for sensitive healthcare agreements.
 
-![CareChain Logo](./src/assets/CareChain.png)
-
----
-
-## 🚀 Features
-
-- 🔐 **Secure Login** with role-based access (Admin / Doctor / Patient)
-- 📜 **Smart Contract** on Ethereum-compatible blockchain (Solidity)
-- 📝 **Contract Creation, Viewing, and Approval**
-- 🔍 **Filtered Search** for contracts by patient, doctor, or treatment
-- 🧾 **Blockchain Integrity** – Immutable history with timestamps
-- 🧑‍⚕️ **Role Management** – Admin manages users, Doctors create contracts, Patients approve
-- 🎨 **Responsive UI** with role-based dashboards
+> 🔒 Built with Solidity, React.js, Node.js, and MongoDB – CareChain brings trust and automation to healthcare processes.
 
 ---
 
-## ⚙️ Technologies Used
+## ✅ Key Features
 
-### 🖥 Frontend
-- **React.js** – UI framework
-- **React Router** – SPA routing
-- **CSS Modules** – Component-level styling
-
-### 🌐 Backend & Blockchain
-- **Node.js + Express.js** – API Server
-- **MongoDB Atlas** – Database for user and auth data
-- **Solidity** – Smart contracts on Ethereum blockchain
-- **Ethers.js + Web3** – Blockchain interactions
-
-### 🔒 Security
-- **JWT Authentication**
-- **bcrypt** – Password hashing
-- **Role-based access control**
+- 🔐 **Role-Based Access** – Admins, Doctors, and Patients each have tailored access levels
+- 🧠 **Smart Contracts** – Immutable and verifiable contracts deployed to the blockchain
+- ✍️ **Contract Creation** – Doctors create treatment contracts for patients
+- 👁️ **Contract Review** – Patients can view and approve contracts securely
+- 📅 **Audit-Ready Timestamps** – Track creation and last updates with block timestamps
+- 📊 **Search & Filter** – Easily navigate contracts by ID, patient, treatment, or description
+- 🧑‍⚕️ **User Management** – Admins manage users via secure interfaces
 
 ---
 
-## 📁 Project Structure
+## 🧱 Technologies Used
+
+| Layer       | Stack                                                |
+|-------------|------------------------------------------------------|
+| **Frontend**| React.js, React Router, CSS Modules                  |
+| **Backend** | Node.js, Express.js, JWT, bcrypt                     |
+| **Blockchain**| Solidity (Ethereum-compatible), Ethers.js, Web3.js |
+| **Database**| MongoDB (Atlas)                                      |
+
+---
+
+## 📂 Project Structure
 
