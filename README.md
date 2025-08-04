@@ -1,3 +1,4 @@
+
 # 🩺 CareChain – Blockchain-Based Medical Contract Platform
 
 **CareChain** is a secure and decentralized platform for managing medical contracts between doctors and patients. By leveraging blockchain technology, the system ensures **immutability**, **transparency**, and **fine-grained access control** for sensitive healthcare agreements.
